@@ -1,12 +1,29 @@
+.contorno{
+    background-color: black;
+    height: 600px;
+    width: 280px;
+    border-radius: 30px;
+}
 
-/* 
+.rojo{
+   background: #fc0000;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.amarillo{
+    background: #fbff00; 
+}
 
-*/
+.verde{
+    background: #1ff22d; 
+}
+
+.brillo{
+    box-shadow: 0px 0px 30px 4px #f5ffa8;
+}
+
+.luz{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
